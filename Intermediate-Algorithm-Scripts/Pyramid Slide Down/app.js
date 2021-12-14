@@ -32,6 +32,8 @@ function longestSlideDown (pyramid) {
     return pyramid[0][0];
 }
 
+console.log(longestSlideDown([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]))
+
 console.log(longestSlideDown(
     [[75],
      [95, 64],
