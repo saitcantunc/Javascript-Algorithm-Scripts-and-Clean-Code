@@ -17,4 +17,4 @@ function solution(number) {
   return sum;
 }
 
-console.log(solution(20));
+console.log(solution(30));
