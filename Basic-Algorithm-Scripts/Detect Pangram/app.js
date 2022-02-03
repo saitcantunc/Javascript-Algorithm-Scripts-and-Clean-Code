@@ -3,13 +3,10 @@ the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because
 
 Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation. */
 
-function isPangram(string){
-    string = string.toLowerCase();
-    return "abcdefghijklmnopqrstuvwxyz"
-      .split("").every(function(x){
-        return string.indexOf(x) !== -1;
-    });
+function isPangram(string) {
+	string = string.toLowerCase();
+	return "abcdefghijklmnopqrstuvwxyz".split("").every((x) => string.indexOf(x) !== -1);
 }
 
-console.log(isPangram("The quick brown fox jumps over the lazy dog."))
-console.log(isPangram("This is not a pangram."))
+console.log(isPangram("The quick brown fox jumps over the lazy dog."));
+console.log(isPangram("This is not a pangram."));
