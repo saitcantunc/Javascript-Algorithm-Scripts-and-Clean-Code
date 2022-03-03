@@ -12,4 +12,4 @@ let insertionSort = (inputArr) => {
 	return inputArr;
 };
 
-console.log(insertionSort([1, 12, 123, 3, 5, 7657, 100]));
+console.log(insertionSort([1, 12, 123, 3, 5, 7657, 100])); // [1, 3, 5, 12, 100, 123, 7657]
